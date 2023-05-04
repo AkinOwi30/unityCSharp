@@ -1,0 +1,34 @@
+//====The absolute beginning of this script====
+
+//Company Name:Godbrand Games L.L.C.
+//Developer Name: Akinwale "Wally" Owi
+//Program Purpose: Subtract two public floats and print the sum to console
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class math : MonoBehaviour
+{//Beginning of public class math : MonoBehaviour
+
+    //Beginning of variable creation
+    public float totalSleepNeeded = 8;
+    public float commute = 2;
+    float differenceEqualsQualityOfLife;
+
+    // Start is called before the first frame update
+    void Start()
+    {//Beginning of void Start()
+
+        Debug.Log("How far do you live?:");
+        Debug.Log("Total sleep needed? = " + totalSleepNeeded + " hours" );
+        Debug.Log("Commute = " + commute + " hours"  );
+
+        differenceEqualsQualityOfLife = totalSleepNeeded - commute;
+        Debug.Log("Sleep before work = " + differenceEqualsQualityOfLife + " hours" );
+
+    }//End of void Start()
+    
+}//End of public class math : MonoBehaviour
+
+//====The absolute end of this script====
