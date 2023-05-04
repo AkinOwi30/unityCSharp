@@ -1,0 +1,34 @@
+//====The absolute beginning of this script====
+
+//Company Name:Godbrand Games L.L.C.
+//Developer Name: Akinwale "Wally" Owi
+//Program Purpose: Multiply two public floats and print the product to console
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class math : MonoBehaviour
+{//Beginning of public class math : MonoBehaviour
+
+    //Beginning of variable creation
+    public float totalNumberOfProjects = 4;
+    public float numberOfManagersPerProject = 2;
+    float numberOfManagersOnStaff;
+
+    // Start is called before the first frame update
+    void Start()
+    {//Beginning of void Start()
+
+       
+        Debug.Log("How many projects does your company run? = " + totalNumberOfProjects);
+        Debug.Log("How many managers per project? = " + numberOfManagersPerProject);
+
+        numberOfManagersOnStaff = totalNumberOfProjects * numberOfManagersPerProject;
+        Debug.Log("So you have/will have = " + numberOfManagersOnStaff + " managers on staff" );
+
+    }//End of void Start()
+    
+}//End of public class math : MonoBehaviour
+
+//====The absolute end of this script====
