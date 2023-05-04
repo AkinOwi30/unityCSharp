@@ -1,0 +1,29 @@
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class math : MonoBehaviour
+{//Beginning of public class math : MonoBehaviour
+
+    //Beginning of variable creation
+    public float totalNumberOfMealsPrepped = 28;
+    public float numberOfPreppedMealsEatenADay = 4;
+    float numberOfDaysMealPrepped;
+
+    // Start is called before the first frame update
+    void Start()
+    {//Beginning of void Start()
+
+       
+        Debug.Log("How many meals do you already have prepped? = " + totalNumberOfMealsPrepped);
+        Debug.Log("How many prepped meals do you eat a day? = " + numberOfPreppedMealsEatenADay);
+
+        numberOfDaysMealPrepped = totalNumberOfMealsPrepped/ numberOfPreppedMealsEatenADay;
+        Debug.Log("So you have = " + numberOfDaysMealPrepped + " prepped days" );
+
+    }//End of void Start()
+    
+}//End of public class math : MonoBehaviour
+
+//====The absolute end of this script====
