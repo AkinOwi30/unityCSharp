@@ -1,16 +1,24 @@
+//====The absolute beginning of this script====
+
+//Company Name:Godbrand Games L.L.C.
+//Developer Name: Akinwale "Wally" Owi
+//Program Purpose: Add two public floats and print the sum to console
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class math : MonoBehaviour
-{
-    public float baseYearly = 70000;
+{//Beginning of public class math : MonoBehaviour
+
+    public float baseYearly = 80000;
     public float averageComissionYearly = 30000;
     float totalIncome;
 
     // Start is called before the first frame update
     void Start()
-    {
+    {//Beginning of void Start()
+
         Debug.Log("Here's what we're offering:");
         Debug.Log("Base yearly = $" + baseYearly );
         Debug.Log("Average commision yearly  = $" + averageComissionYearly  );
@@ -18,9 +26,8 @@ public class math : MonoBehaviour
         totalIncome = baseYearly + averageComissionYearly;
         Debug.Log("total Income = $" + totalIncome );
 
-       
-        
-    }
-
+    }//End of void Start()
     
-}
+}//End of public class math : MonoBehaviour
+
+//====The absolute end of this script====
