@@ -1,0 +1,24 @@
+//====The absolute beginning of this script====
+
+//Company Name:Godbrand Games L.L.C.
+//Developer Name: Akinwale "Wally" Owi
+//Program Purpose: 
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class consoleLog : MonoBehaviour
+{//Beginning of public class consoleLog : MonoBehaviour
+
+    // Start is called before the first frame update
+    void Start()
+    {//Beginning of void Start()
+
+         Debug.Log("Hello World!");
+
+    }//End of void Start()
+
+}//End of public class consoleLog : MonoBehaviour
+
+//====The absolute end of this script====
