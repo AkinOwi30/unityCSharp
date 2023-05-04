@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class math : MonoBehaviour
+{
+    public float baseYearly = 70000;
+    public float averageComissionYearly = 30000;
+    float totalIncome;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log("Here's what we're offering:");
+        Debug.Log("Base yearly = $" + baseYearly );
+        Debug.Log("Average commision yearly  = $" + averageComissionYearly  );
+
+        totalIncome = baseYearly + averageComissionYearly;
+        Debug.Log("total Income = $" + totalIncome );
+
+       
+        
+    }
+
+    
+}
